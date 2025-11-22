@@ -89,16 +89,22 @@ Talent-Trove/
 
   .gitignore
   Class.png               # Class diagram
-Running the project locally
-1. Backend (Django)
-Prerequisites
-Python 3.12+
+```
 
-Virtual environment tool (venv)
+---
 
-Setup
-bash
-Skopiuj kod
+## Running the project locally
+
+### 1. Backend (Django)
+
+#### Prerequisites
+
+- Python 3.12+
+- Virtual environment tool (`venv`)
+
+#### Setup
+
+```bash
 cd backend
 
 # Create and activate virtual environment
@@ -116,88 +122,91 @@ python manage.py migrate
 
 # (Optional) Create superuser for Django admin
 python manage.py createsuperuser
-Run the backend
-bash
-Skopiuj kod
+```
+
+#### Run the backend
+
+```bash
 python manage.py runserver
+```
+
 By default the API will be available at:
 
-text
-Skopiuj kod
+```text
 http://localhost:8000/
-2. Frontend (React)
-Prerequisites
-Node.js (recommended 18+)
+```
 
-npm or yarn
+---
 
-Setup and run
-bash
-Skopiuj kod
+### 2. Frontend (React)
+
+#### Prerequisites
+
+- Node.js (recommended 18+)
+- npm or yarn
+
+#### Setup and run
+
+```bash
 cd frontend
 npm install
 npm start
+```
+
 By default the frontend runs at:
 
-text
-Skopiuj kod
+```text
 http://localhost:3000/
-The frontend is configured to communicate with the backend running on http://localhost:8000 (adjust in the code/configuration if needed).
+```
 
-Selected screens (concept)
-Guest Home – public landing page with basic information
+The frontend is configured to communicate with the backend running on `http://localhost:8000` (adjust in the code/configuration if needed).
 
-Worker Home – dashboard for a logged-in worker (profile, invitations)
+---
 
-Recruiter Home – dashboard for a logged-in recruiter (lists, favourites, invitations)
+## Selected screens (concept)
 
-Workers list – table/grid of workers with filters (city, specialization, languages)
+- **Guest Home** – public landing page with basic information  
+- **Worker Home** – dashboard for a logged-in worker (profile, invitations)  
+- **Recruiter Home** – dashboard for a logged-in recruiter (lists, favourites, invitations)  
+- **Workers list** – table/grid of workers with filters (city, specialization, languages)  
+- **Worker details** – detailed profile view with skills and experience  
+- **Invitations** – lists of sent/received invitations for both workers and recruiters  
+- **Registration and login** – separate flows for workers and recruiters  
 
-Worker details – detailed profile view with skills and experience
+---
 
-Invitations – lists of sent/received invitations for both workers and recruiters
+## Data model (high-level)
 
-Registration and login – separate flows for workers and recruiters
-
-Data model (high-level)
 The backend uses a relational model to represent the recruitment domain. Examples of entities:
 
-City – available locations
+- **City** – available locations  
+- **Specialization** – worker specializations  
+- **ProgrammingLanguages** – available programming languages  
+- **Worker** – worker profile with relations to city, specialization and languages  
+- **Recruiter** – recruiter profile  
+- **Invitation** – invitations from recruiters to workers, with status and date  
+- **Visit** – information about profile visits  
 
-Specialization – worker specializations
+Initial values for these entities are provided in JSON files in the `backend/seeds/` directory.
 
-ProgrammingLanguages – available programming languages
+---
 
-Worker – worker profile with relations to city, specialization and languages
+## Possible future improvements
 
-Recruiter – recruiter profile
+- Pagination and advanced filtering on the workers list  
+- More detailed profile fields (experience, preferred contract type, salary range)  
+- Notifications for new invitations and profile visits  
+- Unit and integration tests for key flows (auth, invitations, profile updates)  
+- Docker configuration for easier local setup  
 
-Invitation – invitations from recruiters to workers, with status and date
+---
 
-Visit – information about profile visits
+## How to use this project in a portfolio
 
-Initial values for these entities are provided in JSON files in the backend/seeds/ directory.
-
-Possible future improvements
-Pagination and advanced filtering on the workers list
-
-More detailed profile fields (experience, preferred contract type, salary range)
-
-Notifications for new invitations and profile visits
-
-Unit and integration tests for key flows (auth, invitations, profile updates)
-
-Docker configuration for easier local setup
-
-How to use this project in a portfolio
 This repository demonstrates:
 
-A complete full-stack application (frontend + backend)
-
-Work with React + TypeScript on the frontend
-
-Real REST API built in Django REST Framework
-
-Separation of concerns between guest/worker/recruiter flows
-
-Basic domain modelling for an IT recruitment platform
+- A complete **full-stack application** (frontend + backend)
+- Work with **React + TypeScript** on the frontend
+- Real **REST API** built in **Django REST Framework**
+- Separation of concerns between guest/worker/recruiter flows
+- Basic domain modelling for an IT recruitment platform
