@@ -1,0 +1,107 @@
+[
+    {
+        "model": "talentTrove.specialization",
+        "pk": 1,
+        "fields": {
+            "name": "Frontend"
+        }
+    },
+    {
+        "model": "talentTrove.specialization",
+        "pk": 2,
+        "fields": {
+            "name": "Backend"
+        }
+    },
+    {
+        "model": "talentTrove.specialization",
+        "pk": 3,
+        "fields": {
+            "name": "Fullstack"
+        }
+    },
+    {
+        "model": "talentTrove.specialization",
+        "pk": 4,
+        "fields": {
+            "name": "Mobile"
+        }
+    },
+    {
+        "model": "talentTrove.specialization",
+        "pk": 5,
+        "fields": {
+            "name": "Desktop"
+        }
+    },
+    {
+        "model": "talentTrove.specialization",
+        "pk": 6,
+        "fields": {
+            "name": "Embedded"
+        }
+    },
+    {
+        "model": "talentTrove.specialization",
+        "pk": 7,
+        "fields": {
+            "name": "DevOps"
+        }
+    },
+    {
+        "model": "talentTrove.specialization",
+        "pk": 8,
+        "fields": {
+            "name": "Data Science"
+        }
+    },
+    {
+        "model": "talentTrove.specialization",
+        "pk": 9,
+        "fields": {
+            "name": "Testing"
+        }
+    },
+    {
+        "model": "talentTrove.specialization",
+        "pk": 10,
+        "fields": {
+            "name": "Security"
+        }
+    },
+    {
+        "model": "talentTrove.specialization",
+        "pk": 11,
+        "fields": {
+            "name": "Game"
+        }
+    },
+    {
+        "model": "talentTrove.specialization",
+        "pk": 12,
+        "fields": {
+            "name": "Project Manager"
+        }
+    },
+    {
+        "model": "talentTrove.specialization",
+        "pk": 13,
+        "fields": {
+            "name": "Product Manager"
+        }
+    },
+    {
+        "model": "talentTrove.specialization",
+        "pk": 14,
+        "fields": {
+            "name": "UX/UI Designer"
+        }
+    },
+    {
+        "model": "talentTrove.specialization",
+        "pk": 15,
+        "fields": {
+            "name": "Other"
+        }
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "model": "talentTrove.worker",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "city": 1,
+            "gender": "male",
+            "age": 25,
+            "specialization": 3,
+            "description": "I am a skilled developer with experience in...",
+            "experience": 3,
+            "education": "master",
+            "prefered_salary": 70000,
+            "prefered_style_of_work": "remote",
+            "account_visibility": true,
+            "field_visibility": "111111"
+        }
+    },
+    {
+        "model": "talentTrove.worker",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "city": 6,
+            "gender": "female",
+            "age": 30,
+            "specialization": 1,
+            "description": "Experienced front-end developer passionate about creating user-friendly interfaces...",
+            "experience": 5,
+            "education": "bachelor",
+            "prefered_salary": 80000,
+            "prefered_style_of_work": "office",
+            "account_visibility": true,
+            "field_visibility": "110000"
+        }
+    },
+{
+        "model": "talentTrove.worker",
+        "pk": 3,
+        "fields": {
+            "user": 3,
+            "city": 1,
+            "gender": "other",
+            "age": 28,
+            "specialization": 3,
+            "description": "Full-stack developer with expertise in building scalable web applications...",
+            "experience": 4,
+            "education": "bachelor",
+            "prefered_salary": 75000,
+            "prefered_style_of_work": "hybrid",
+            "account_visibility": true,
+            "field_visibility": "101010"
+        }
+    },
+    {
+        "model": "talentTrove.worker",
+        "pk": 4,
+        "fields": {
+            "user": 4,
+            "city": 2,
+            "gender": "male",
+            "age": 35,
+            "specialization": 4,
+            "description": "Experienced mobile app developer with a focus on user-friendly design...",
+            "experience": 6,
+            "education": "master",
+            "prefered_salary": 85000,
+            "prefered_style_of_work": "remote",
+            "account_visibility": false,
+            "field_visibility": "111100"
+        }
+    },
+    {
+        "model": "talentTrove.worker",
+        "pk": 5,
+        "fields": {
+            "user": 5,
+            "city": 1,
+            "gender": "female",
+            "age": 32,
+            "specialization": 8,
+            "description": "Data scientist with a strong background in machine learning and statistical analysis...",
+            "experience": 7,
+            "education": "phd",
+            "prefered_salary": 95000,
+            "prefered_style_of_work": "office",
+            "account_visibility": true,
+            "field_visibility": "010101"
+        }
+    }
+]

@@ -1,0 +1,85 @@
+
+[
+    {
+        "model": "talentTrove.workerprogramminglanguages",
+        "pk": 1,
+        "fields": {
+            "worker": 1,
+            "programming_languages": 1,
+            "advanced": "beginner"
+        }
+    },
+    {
+        "model": "talentTrove.workerprogramminglanguages",
+        "pk": 2,
+        "fields": {
+            "worker": 1,
+            "programming_languages": 2,
+            "advanced": "intermediate"
+        }
+    },
+    {
+        "model": "talentTrove.workerprogramminglanguages",
+        "pk": 3,
+        "fields": {
+            "worker": 2,
+            "programming_languages": 3,
+            "advanced": "advanced"
+        }
+    },
+    {
+        "model": "talentTrove.workerprogramminglanguages",
+        "pk": 4,
+        "fields": {
+            "worker": 2,
+            "programming_languages": 4,
+            "advanced": "beginner"
+        }
+    },
+    {
+        "model": "talentTrove.workerprogramminglanguages",
+        "pk": 5,
+        "fields": {
+            "worker": 3,
+            "programming_languages": 5,
+            "advanced": "intermediate"
+        }
+    },
+    {
+        "model": "talentTrove.workerprogramminglanguages",
+        "pk": 6,
+        "fields": {
+            "worker": 3,
+            "programming_languages": 6,
+            "advanced": "advanced"
+        }
+    },
+    {
+        "model": "talentTrove.workerprogramminglanguages",
+        "pk": 7,
+        "fields": {
+            "worker": 4,
+            "programming_languages": 7,
+            "advanced": "beginner"
+        }
+    },
+    {
+        "model": "talentTrove.workerprogramminglanguages",
+        "pk": 8,
+        "fields": {
+            "worker": 5,
+            "programming_languages": 8,
+            "advanced": "intermediate"
+        }
+    },
+    {
+        "model": "talentTrove.workerprogramminglanguages",
+        "pk": 9,
+        "fields": {
+            "worker": 5,
+            "programming_languages": 9,
+            "advanced": "advanced"
+        }
+    }
+
+]

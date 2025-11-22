@@ -1,0 +1,142 @@
+[
+  {
+    "model": "talentTrove.city",
+    "pk": 1,
+    "fields": {
+      "name": "Warszawa"
+    }
+  },
+  {
+    "model": "talentTrove.city",
+    "pk": 2,
+    "fields": {
+      "name": "Kraków"
+    }
+  },
+  {
+    "model": "talentTrove.city",
+    "pk": 3,
+    "fields": {
+      "name": "Wrocław"
+    }
+  },
+  {
+    "model": "talentTrove.city",
+    "pk": 4,
+    "fields": {
+      "name": "Poznań"
+    }
+  },
+  {
+    "model": "talentTrove.city",
+    "pk": 5,
+    "fields": {
+      "name": "Gdańsk"
+    }
+  },
+  {
+    "model": "talentTrove.city",
+    "pk": 6,
+    "fields": {
+      "name": "Szczecin"
+    }
+  },
+  {
+    "model": "talentTrove.city",
+    "pk": 7,
+    "fields": {
+      "name": "Bydgoszcz"
+    }
+  },
+  {
+    "model": "talentTrove.city",
+    "pk": 8,
+    "fields": {
+      "name": "Lublin"
+    }
+  },
+  {
+    "model": "talentTrove.city",
+    "pk": 9,
+    "fields": {
+      "name": "Katowice"
+    }
+  },
+  {
+    "model": "talentTrove.city",
+    "pk": 10,
+    "fields": {
+      "name": "Białystok"
+    }
+  },
+  {
+    "model": "talentTrove.city",
+    "pk": 11,
+    "fields": {
+      "name": "Gdynia"
+    }
+  },
+  {
+    "model": "talentTrove.city",
+    "pk": 12,
+    "fields": {
+      "name": "Częstochowa"
+    }
+  },
+  {
+    "model": "talentTrove.city",
+    "pk": 13,
+    "fields": {
+      "name": "Radom"
+    }
+  },
+  {
+    "model": "talentTrove.city",
+    "pk": 14,
+    "fields": {
+      "name": "Sosnowiec"
+    }
+  },
+  {
+    "model": "talentTrove.city",
+    "pk": 15,
+    "fields": {
+      "name": "Toruń"
+    }
+  },
+  {
+    "model": "talentTrove.city",
+    "pk": 16,
+    "fields": {
+      "name": "Kielce"
+    }
+  },
+  {
+    "model": "talentTrove.city",
+    "pk": 17,
+    "fields": {
+      "name": "Gliwice"
+    }
+  },
+  {
+    "model": "talentTrove.city",
+    "pk": 18,
+    "fields": {
+      "name": "Zabrze"
+    }
+  },
+  {
+    "model": "talentTrove.city",
+    "pk": 19,
+    "fields": {
+      "name": "Bytom"
+    }
+  },
+  {
+    "model": "talentTrove.city",
+    "pk": 20,
+    "fields": {
+      "name": "Bielsko-Biała"
+    }
+  }
+]
