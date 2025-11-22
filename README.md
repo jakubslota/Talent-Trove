@@ -88,9 +88,9 @@ Talent-Trove/
     tsconfig.json
 
   .gitignore
-  Class.png               # Class diagram
-<<<<<<< HEAD
+  ERD.png               # ERD Diagram
 ```
+![ERD diagram](ERD.png)
 
 ---
 
@@ -121,8 +121,6 @@ pip install -r requirements.txt
 # Apply migrations
 python manage.py migrate
 
-# (Optional) Create superuser for Django admin
-python manage.py createsuperuser
 ```
 
 #### Run the backend
@@ -191,25 +189,3 @@ The backend uses a relational model to represent the recruitment domain. Example
 Initial values for these entities are provided in JSON files in the `backend/seeds/` directory.
 
 ---
-
-## Possible future improvements
-
-- Pagination and advanced filtering on the workers list  
-- More detailed profile fields (experience, preferred contract type, salary range)  
-- Notifications for new invitations and profile visits  
-- Unit and integration tests for key flows (auth, invitations, profile updates)  
-- Docker configuration for easier local setup  
-
----
-
-## How to use this project in a portfolio
-
-This repository demonstrates:
-
-- A complete **full-stack application** (frontend + backend)
-- Work with **React + TypeScript** on the frontend
-- Real **REST API** built in **Django REST Framework**
-- Separation of concerns between guest/worker/recruiter flows
-- Basic domain modelling for an IT recruitment platform
-=======
->>>>>>> 81e478c1e0380622cfd9dc7a1d75dfc8f7efe1a8
