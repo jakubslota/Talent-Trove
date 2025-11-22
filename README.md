@@ -89,6 +89,8 @@ Talent-Trove/
 
   .gitignore
   Class.png               # Class diagram
+```
+
 Running the project locally
 1. Backend (Django)
 Prerequisites
