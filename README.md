@@ -89,6 +89,7 @@ Talent-Trove/
 
   .gitignore
   Class.png               # Class diagram
+<<<<<<< HEAD
 ```
 
 ---
@@ -210,3 +211,5 @@ This repository demonstrates:
 - Real **REST API** built in **Django REST Framework**
 - Separation of concerns between guest/worker/recruiter flows
 - Basic domain modelling for an IT recruitment platform
+=======
+>>>>>>> 81e478c1e0380622cfd9dc7a1d75dfc8f7efe1a8
