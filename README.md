@@ -53,7 +53,7 @@ The project implements separate views and flows for guests, workers and recruite
 **Other**
 
 - REST API communication between frontend and backend
-- Class diagram available as `Class.png` in the repository root
+- ERD diagram available as `ERD.png` in the repository root
 
 ---
 
